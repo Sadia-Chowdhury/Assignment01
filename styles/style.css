@@ -18,11 +18,13 @@ nav {
     max-width: 1440px;
     margin: 0 auto;
     box-sizing: border-box;
+    
 }
 
 .nav-title {
     font-weight: 800;
     font-size: 20px;
+    padding-left: 30px;
 }
 
 .nav-button {
@@ -35,6 +37,7 @@ nav {
     font-size: 20px;
     font-weight: 600;
     border: 2px solid black;
+    padding-right: 30px;
 
 }
 
@@ -46,7 +49,7 @@ nav {
     height: 652px;
     margin: 0 auto;
     background-image: url('../assets/Hero-bg.png');
-
+    margin-bottom: 40px;
 }
 
 .frame-4 {
@@ -118,16 +121,16 @@ nav {
 
 /*Page-2*/
 
-.page-2 {
+.hero-section {
     width: 1140px;
     margin: 0 auto;
-    background: white;
+    background-color: rgb(247, 247, 247);
     padding: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
+    margin-bottom: 40px;
 }
 
-.page-2-header {
+.hero-section-header {
     text-align: center;
     margin-top: 40px;
 }
@@ -196,6 +199,7 @@ nav {
     text-align: center;
     align-items: center;
     padding: 0;
+    margin-bottom: 40px;
 }
 
 .frame-15 h2 {
@@ -229,6 +233,7 @@ nav {
     text-align: center;
     padding: 0;
     background-color: rgb(255, 255, 255);
+    margin-bottom: 40px;
 }
 
 .current-target h2 {
@@ -240,35 +245,53 @@ nav {
     margin: 0;
     padding: 10px 0;
     text-align: center;
+    margin-bottom: 20px;}
 
-}
 
 .cards {
     width: 1140px;
     height: 300px;
     display: flex;
+    align-items: flex-start; 
     justify-content: space-between;
 }
 
 .card-1 {
+    
     width: 364px;
     height: 300px;
+    padding-top: 20px;
     background-color: #f4f1f5;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
 }
 
 .card-2 {
     width: 364px;
     height: 300px;
+    padding-top: 20px;
     background-color: #afecff;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .card-3 {
     width: 364px;
     height: 300px;
+    padding-top: 20px;
     background-color: #fffbc2;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 /*Support Section*/
@@ -279,7 +302,7 @@ nav {
     background-image: url('../assets/handshake.jpg');
     background-position: center;
     background-size: cover;
-
+    margin-bottom: 40px;
 }
 
 .text-element {
