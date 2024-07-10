@@ -42,23 +42,17 @@ nav {
 
 
 .banner-section-container {
-    position: absolute;
     width: 1440px;
     height: 652px;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -70%);
+    margin: 0 auto;
     background-image: url('../assets/Hero-bg.png');
+    
 }
 
 .frame-4 {
-    position: absolute;
     width: 998px;
     height: 582px;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -99,6 +93,12 @@ nav {
     color: rgb(13, 19, 33);
 }
 
+.contact-button-container {
+display: flex;
+justify-content: center;
+
+}
+
 .contact-button {
     width: 208px;
     height: 66px;
@@ -117,3 +117,99 @@ nav {
 }
 
 /*Page-2*/
+
+.page-2 {
+    width: 1140px;
+    margin: 0 auto; /* Top margin of 100px, centered horizontally */
+    background: white;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.page-2-header{
+    text-align: center;
+    margin-top: 40px;
+}
+.section-wrapper{
+    margin-top: 20px;
+}
+.content-section {
+    display: flex;
+    background-color: white;
+    padding: 50px;
+    justify-content: space-between;
+    
+}
+.text-content {
+    width: 477px;
+    height: 220px;
+    padding: 00px;
+}
+.image-content {
+
+    padding: 00px;
+}
+
+.text-content h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.text-content p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.text-content button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.text-content button:hover {
+    background-color: #4cae4c;
+}
+
+
+
+.image-content img {
+    width: 260;
+    height: 218;
+   
+}
+
+ /* My inspiration*/
+.frame-15 {
+    width: 1140px;
+    height: 777px;
+    margin-top: 200px;
+    text-align: center; 
+    align-items: center;
+    padding: 0;
+}
+
+.frame-15 h2 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.frame-15 p {
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.video-container {
+    width: 1140px;
+    height: 777px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+} */
